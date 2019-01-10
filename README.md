@@ -3,7 +3,7 @@
 #### 介绍
 Microservices with Docker, Flask, and React
 
-[![Build Status](https://travis-ci.org/mgw2168/testdriven-app.svg?branch=master)](https://travis-ci.org/mgw2168/testdriven-app)]
+[![Build Status](https://travis-ci.org/mgw2168/testdriven-app.svg?branch=master)](https://travis-ci.org/mgw2168/testdriven-app)
 
 #### 软件架构
 软件架构说明
