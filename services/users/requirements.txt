@@ -4,3 +4,4 @@ psycopg2==2.7.4
 Flask-Testing==0.6.2
 coverage==4.5.1
 flake8===3.5.0
+flask-debugtoolbar==0.10.1
