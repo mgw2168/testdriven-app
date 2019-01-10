@@ -5,6 +5,7 @@ from project import db
 from project.api.models import User
 from project.tests.base import BaseTestCase
 
+
 def add_user(username, email):
     user = User(username=username, email=email)
     db.session.add(user)
@@ -20,7 +21,7 @@ class TestUserService(BaseTestCase):
         response = self.client.get('/users/ping')
         data = json.loads(response.data.decode())
         self.assertEqual(response.status_code, 200)
-        self.assertIn('pong!', data['message'])     # pong! in data['message']
+        self.assertIn('pong!', data['message'])  # pong! in data['message']
         self.assertIn('success', data['status'])
 
     def test_add_user(self):
@@ -53,7 +54,8 @@ class TestUserService(BaseTestCase):
             self.assertIn('fail', data['status'])
 
     def test_add_user_invalid_json_keys(self):
-        """Ensure error is thrown id the JSON object does not have a username key"""
+        """Ensure error is thrown id the JSON object
+         does not have a username key"""
         with self.client:
             response = self.client.post(
                 '/users',
@@ -129,14 +131,19 @@ class TestUserService(BaseTestCase):
             data = json.loads(response.data.decode())
             self.assertEqual(response.status_code, 200)
             self.assertEqual(len(data['data']['users']), 2)
-            self.assertIn('michael', data['data']['users'][0]['username'])
-            self.assertIn('michael@mherman.org', data['data']['users'][0]['email'])
-            self.assertIn('fletcher', data['data']['users'][1]['username'])
-            self.assertIn('fletcher@notreal.com', data['data']['users'][1]['email'])
+            self.assertIn('michael', data['data']['users'][0]
+                          ['username'])
+            self.assertIn('michael@mherman.org', data['data']
+                          ['users'][0]['email'])
+            self.assertIn('fletcher', data['data']['users'][1]
+                          ['username'])
+            self.assertIn('fletcher@notreal.com', data['data']
+                          ['users'][1]['email'])
             self.assertIn('success', data['status'])
 
     def test_main_with_users(self):
-        """ Ensure the main route behaves correctly when no users have been added to the database """
+        """ Ensure the main route behaves correctly when no users
+        have been added to the database """
         add_user('michael', 'michael@mherman.org')
         add_user('fletcher', 'fletcher@notreal.com')
         with self.client:
@@ -152,7 +159,7 @@ class TestUserService(BaseTestCase):
         with self.client:
             response = self.client.post(
                 '/',
-                data = dict(username='michael', email='michael@sonotreal.com'),
+                data=dict(username='michael', email='michael@sonotreal.com'),
                 follow_redirects=True
             )
             self.assertEqual(response.status_code, 200)
