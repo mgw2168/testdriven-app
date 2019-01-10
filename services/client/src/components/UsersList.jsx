@@ -1,15 +1,15 @@
 import React from 'react';
 
-const UserList = (props) => {
+const UsersList = (props) => {
   return (
     <div>
       {
-        props.users.map((users) => {
+        props.users.map((user) => {
           return (
             <h4
-            key={user.id}
-            className="box title is-4"
-            >{user.username}
+              key={user.id}
+              className="box title is-4"
+            >{ user.username }
             </h4>
           )
         })
@@ -17,4 +17,5 @@ const UserList = (props) => {
     </div>
   )
 };
-export default UserList;
+
+export default UsersList;

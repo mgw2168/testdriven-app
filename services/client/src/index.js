@@ -16,7 +16,7 @@ class App extends Component {
   getUsers() {
     axios.get(`${process.env.REACT_APP_USERS_SERVICE_URL}/users`)
       .then((res) => {
-        console.log(res.data.data);
+        this.setState({users: res.data.data.users});
       })
       .catch((err) => { console.log(err);
       })
@@ -31,17 +31,14 @@ class App extends Component {
               <br/>
               <h1 className="title is-1 is-1">All Users</h1>
               <hr/><br/>
-              <UsersList users="{this.state.users"/>
+              <UsersList users={this.state.users}/>
             </div>
-
           </div>
-
         </div>
       </section>
     )
   }
-}
-;
+};
 
 ReactDOM.render(
   <App />,
