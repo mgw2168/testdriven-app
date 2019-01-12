@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1696afed-6c34-4ebe-a372-42df1622aa8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/users/project/api/auth.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/__init__.py" afterPath="$PROJECT_DIR$/services/users/project/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/api/users.py" afterPath="$PROJECT_DIR$/services/users/project/api/users.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/tests/test_config.py" afterPath="$PROJECT_DIR$/services/users/project/tests/test_config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" afterPath="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/tests/test_users.py" afterPath="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/api/auth.py" afterPath="$PROJECT_DIR$/services/users/project/api/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/users/project/tests/test_auth.py" afterPath="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,12 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auth.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/users/project/api/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="1472">
+              <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,9 +63,10 @@
       <file leaf-file-name="test_auth.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="1196">
+              <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
               <folding>
+                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#184#888#0" expanded="false" />
                 <element signature="e#952#1607#0" expanded="false" />
                 <element signature="e#1674#2328#0" expanded="false" />
@@ -137,11 +134,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_users.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_users.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="169" column="26" lean-forward="false" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="26" />
+            <state relative-caret-position="552">
+              <caret line="168" column="16" lean-forward="true" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -216,11 +213,11 @@
         <option value="$PROJECT_DIR$/services/users/project/api/models.py" />
         <option value="$PROJECT_DIR$/services/users/project/__init__.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_user_model.py" />
-        <option value="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_config.py" />
-        <option value="$PROJECT_DIR$/services/users/project/api/auth.py" />
         <option value="$PROJECT_DIR$/services/users/project/api/users.py" />
         <option value="$PROJECT_DIR$/services/users/project/tests/test_users.py" />
+        <option value="$PROJECT_DIR$/services/users/project/tests/test_auth.py" />
+        <option value="$PROJECT_DIR$/services/users/project/api/auth.py" />
       </list>
     </option>
   </component>
@@ -340,6 +337,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testdriven-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testdriven-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -682,7 +705,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.49585405" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28968254" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23317535" sideWeight="0.49470899" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23317535" sideWeight="0.49470899" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25661376" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492891" sideWeight="0.49470899" order="2" side_tool="false" content_ui="tabs" />
@@ -1107,23 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#184#888#0" expanded="false" />
-            <element signature="e#952#1607#0" expanded="false" />
-            <element signature="e#1674#2328#0" expanded="false" />
-            <element signature="e#1754#2328#0" expanded="false" />
-            <element signature="e#2389#2803#0" expanded="false" />
-            <element signature="e#2881#3398#0" expanded="false" />
-            <element signature="e#3473#3989#0" expanded="false" />
-            <element signature="e#4067#4588#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="53">
@@ -1142,14 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/users/project/api/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/api/users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1162,10 +1160,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_users.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="169" column="26" lean-forward="false" selection-start-line="169" selection-start-column="26" selection-end-line="169" selection-end-column="26" />
+        <state relative-caret-position="552">
+          <caret line="168" column="16" lean-forward="true" selection-start-line="168" selection-start-column="16" selection-end-line="168" selection-end-column="16" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/tests/test_auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="151" column="55" lean-forward="false" selection-start-line="151" selection-start-column="55" selection-end-line="151" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#184#888#0" expanded="false" />
+            <element signature="e#952#1607#0" expanded="false" />
+            <element signature="e#1674#2328#0" expanded="false" />
+            <element signature="e#1754#2328#0" expanded="false" />
+            <element signature="e#2389#2803#0" expanded="false" />
+            <element signature="e#2881#3398#0" expanded="false" />
+            <element signature="e#3473#3989#0" expanded="false" />
+            <element signature="e#4067#4588#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/users/project/api/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1472">
+          <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
