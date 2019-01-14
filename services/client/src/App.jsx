@@ -32,6 +32,8 @@ class App extends Component {
        // console.log(res.data);
        this.clearFormState();
        window.localStorage.setItem('authToken', res.data.auth_token);
+       this.setState({ isAuthenticated: true, });
+       this.getUsers();
       })
       .catch((err) => { console.log(err);});
   };
@@ -90,6 +92,7 @@ class App extends Component {
         email: '',
         password: ''
       },
+      isAuthenticated: false,
     };
     this.addUser = this.addUser.bind(this);
     this.handleChange = this.handleChange.bind(this);
@@ -113,6 +116,7 @@ class App extends Component {
                       formData={this.state.formData}
                       handleUserFormSubmit={this.handleUserFormSubmit}
                       handleFormChange={this.handleFormChange}
+                      isAuthenticated={this.state.isAuthenticated }
                     />
                   )}/>
                   <Route exact path='/login' render={() => (
@@ -121,6 +125,7 @@ class App extends Component {
                       formData={this.state.formData}
                       handleUserFormSubmit={this.handleUserFormSubmit}
                       handleFormChange={this.handleFormChange}
+                      isAuthenticated={this.state.isAuthenticated }
                     />
                   )}/>
                   <Route exact path='/' render={() => (

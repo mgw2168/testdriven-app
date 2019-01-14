@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1696afed-6c34-4ebe-a372-42df1622aa8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/src/App.jsx" afterPath="$PROJECT_DIR$/services/client/src/App.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/nginx/dev.conf" afterPath="$PROJECT_DIR$/services/nginx/dev.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/src/components/Form.jsx" afterPath="$PROJECT_DIR$/services/client/src/components/Form.jsx" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,9 +39,11 @@
       <file leaf-file-name="Form.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/services/client/src/components/Form.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
-              <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="-874">
+              <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +51,8 @@
       <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/services/client/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+            <state relative-caret-position="473">
+              <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -150,12 +150,12 @@
         <option value="$PROJECT_DIR$/services/client/src/index.js" />
         <option value="$PROJECT_DIR$/services/client/package.json" />
         <option value="$PROJECT_DIR$/services/client/src/components/NavBar.jsx" />
-        <option value="$PROJECT_DIR$/services/client/src/components/Form.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/App.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/About.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/NavBar.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" />
         <option value="$PROJECT_DIR$/services/nginx/dev.conf" />
+        <option value="$PROJECT_DIR$/services/client/src/components/Form.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/App.jsx" />
       </list>
     </option>
@@ -817,7 +817,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2492891" sideWeight="0.49470899" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30750895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0989273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23317535" sideWeight="0.505291" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1251,14 +1251,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/src/components/Form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/nginx/dev.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -1267,10 +1259,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/components/Form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-874">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+        <state relative-caret-position="473">
+          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
