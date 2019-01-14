@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1696afed-6c34-4ebe-a372-42df1622aa8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/App.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/About.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/Form.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/NavBar.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/About.test.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/App.test.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/NavBar.test.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/package.json" afterPath="$PROJECT_DIR$/services/client/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/src/index.js" afterPath="$PROJECT_DIR$/services/client/src/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/yarn.lock" afterPath="$PROJECT_DIR$/services/client/yarn.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/src/App.jsx" afterPath="$PROJECT_DIR$/services/client/src/App.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" afterPath="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/nginx/dev.conf" afterPath="$PROJECT_DIR$/services/nginx/dev.conf" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,69 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/App.jsx">
+      <file leaf-file-name="Form.test.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.test.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/App.test.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Form.test.jsx.snap" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/__snapshots__/Form.test.jsx.snap">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-759">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavBar.test.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/NavBar.test.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersList.test.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/UsersList.test.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavBar.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/NavBar.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+            <state relative-caret-position="419">
+              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -114,35 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.test.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx">
+      <file leaf-file-name="App.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/services/client/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="485">
+              <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="About.test.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/About.test.jsx">
+      <file leaf-file-name="dev.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/nginx/dev.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/services/client/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="37">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -177,6 +99,8 @@
       <find>REACT_APP_USERS_SERVICE_URL</find>
       <find>test_invalid_logout_expired_token</find>
       <find>Signature expired. Please log in again.</find>
+      <find>Register Form renders properly</find>
+      <find>Form renders properly</find>
       <find>dependencies</find>
     </findStrings>
   </component>
@@ -203,7 +127,6 @@
         <option value="$PROJECT_DIR$/services/nginx/Dockerfile-dev" />
         <option value="$PROJECT_DIR$/services/users/entrypoint-prod.sh" />
         <option value="$PROJECT_DIR$/services/users/Dockerfile-prod" />
-        <option value="$PROJECT_DIR$/services/nginx/dev.conf" />
         <option value="$PROJECT_DIR$/services/client/public/index.html" />
         <option value="$PROJECT_DIR$/services/client/Dockerfile-prod" />
         <option value="$PROJECT_DIR$/docker-compose-prod.yml" />
@@ -228,11 +151,12 @@
         <option value="$PROJECT_DIR$/services/client/package.json" />
         <option value="$PROJECT_DIR$/services/client/src/components/NavBar.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/Form.jsx" />
-        <option value="$PROJECT_DIR$/services/client/src/App.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/App.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/About.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/NavBar.test.jsx" />
         <option value="$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx" />
+        <option value="$PROJECT_DIR$/services/nginx/dev.conf" />
+        <option value="$PROJECT_DIR$/services/client/src/App.jsx" />
       </list>
     </option>
   </component>
@@ -423,6 +347,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nginx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -912,7 +840,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32804233" sideWeight="0.49585405" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30750895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30750895" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26409775" sideWeight="0.49470899" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1022,13 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/nginx/dev.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1215,7 +1136,7 @@
         <state relative-caret-position="665">
           <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,16 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/src/App.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/__snapshots__/Form.test.jsx.snap">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-759">
@@ -1280,20 +1191,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/client/src/components/Form.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/About.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1313,7 +1216,7 @@
         <state relative-caret-position="161">
           <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1323,7 +1226,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1333,17 +1236,43 @@
         <state relative-caret-position="115">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/services/client/src/components/__tests__/Form.test.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+        <state relative-caret-position="419">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/components/Form.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/nginx/dev.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/client/src/App.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="33" column="69" lean-forward="false" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
