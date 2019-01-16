@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify
 from flask import render_template
 from flask import request
 from sqlalchemy import exc
-
+from project.api.utils import authenticate
 from project import db
 from project.api.models import User
 
@@ -18,7 +18,8 @@ def ping_pong():
 
 
 @users_blueprint.route('/users', methods=['POST'])
-def add_user():
+@authenticate
+def add_user(resp):
     post_data = request.get_json()
     response_object = {
         'status': 'fail',
@@ -33,7 +34,8 @@ def add_user():
     try:
         user = User.query.filter_by(email=email).first()
         if not user:
-            db.session.add(User(username=username, email=email,
+            db.session.add(User(username=username,
+                                email=email,
                                 password=password))
             db.session.commit()
             response_object['status'] = 'success'
@@ -79,7 +81,7 @@ def get_all_users():
     response_object = {
         'status': 'success',
         'data': {
-            'users': [user.to_json() for user in User.query.all()]
+        'users': [user.to_json() for user in User.query.all()]
         }
     }
     return jsonify(response_object), 200

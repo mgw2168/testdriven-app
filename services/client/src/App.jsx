@@ -7,9 +7,11 @@ import {Route, Switch} from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Form from './components/Form'
 import Logout from './components/Logout'
+import UserStatus from './components/UserStatus'
 
 
 class App extends Component {
+
   logoutUser() {
     window.localStorage.clear();
     this.setState({ isAuthenticated: false });
@@ -50,7 +52,9 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.getUsers();
+    if (this.props.isAuthenticated) {
+      this.getUsers();
+    }
   };
 
   getUsers() {
@@ -109,7 +113,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar title={this.state.title}/>
+        <NavBar
+          title={this.state.title}
+          isAuthenticated={this.state.isAuthenticated}
+        />
         <section className="section">
           <div className="container">
             <div className="columns">
@@ -153,6 +160,11 @@ class App extends Component {
                   <Route exact path='/logout' render={() =>(
                     <Logout
                       logoutUser={this.logoutUser}
+                      isAuthenticated={this.state.isAuthenticated}
+                    />
+                  )}/>
+                  <Route exact path='/status' component={() => (
+                    <UserStatus
                       isAuthenticated={this.state.isAuthenticated}
                     />
                   )}/>
