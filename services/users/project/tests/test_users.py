@@ -97,9 +97,8 @@ class TestUserService(BaseTestCase):
             self.assertIn('fail', data['status'])
 
     def test_add_user_duplicate_email(self):
-        """Ensure error is thrown if the email already exists"""
+        add_user('test', 'test@test.com', 'test')
         with self.client:
-            add_user('test', 'test@test.com', 'test')
             resp_login = self.client.post(
                 '/auth/login',
                 data=json.dumps({
@@ -108,6 +107,7 @@ class TestUserService(BaseTestCase):
                 }),
                 content_type='application/json'
             )
+            token = json.loads(resp_login.data.decode())['auth_token']
             self.client.post(
                 '/users',
                 data=json.dumps({
@@ -116,14 +116,13 @@ class TestUserService(BaseTestCase):
                     'password': 'greaterthaneight'
                 }),
                 content_type='application/json',
+                headers={'Authorization': f'Bearer {token}'}
             )
-            token = json.loads(resp_login.data.decode())['auth_token']
             response = self.client.post(
                 '/users',
                 data=json.dumps({
                     'username': 'michael',
-                    'email': 'michael@sonotreal.com',
-                    'password': 'test'
+                    'email': 'michael@mherman.org'
                 }),
                 content_type='application/json',
                 headers={'Authorization': f'Bearer {token}'}
@@ -147,7 +146,7 @@ class TestUserService(BaseTestCase):
             self.assertIn('success', data['status'])
 
     def test_single_user_no_id(self):
-        """Ensure error is thrown id an id is not provided."""
+        """Ensure error is thrown if an id is not provided."""
         with self.client:
             response = self.client.get('/users/blah')
             data = json.loads(response.data.decode())
