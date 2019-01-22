@@ -257,7 +257,7 @@ class TestAuthBlueprint(BaseTestCase):
         user.active = False
         db.session.commit()
         with self.client:
-            resp_login=self.client.post(
+            resp_login = self.client.post(
                 '/auth/login',
                 data=json.dumps({
                     'email': 'test@test.com',
